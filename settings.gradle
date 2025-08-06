@@ -1,1 +1,2 @@
-include ':WoxTube'
+rootProject.name = "WoxTube"
+include ':app'
