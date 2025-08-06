@@ -1,0 +1,1 @@
+Memperbaiki pelaksanaan pemeriksaan untuk versi WoxTube baru. Pemeriksaan ini terkadang dilakukan terlalu dini sehingga menyebabkan aplikasi mogok. Itu harus diperbaiki sekarang.

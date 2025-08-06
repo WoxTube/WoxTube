@@ -1,0 +1,1 @@
+Fixed database migration which prevented WoxTube from starting in some rare cases.

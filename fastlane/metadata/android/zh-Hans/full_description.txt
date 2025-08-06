@@ -1,0 +1,1 @@
+WoxTube 不使用任何 Google 框架库组件，也不使用 YouTube API。WoxTube 仅仅通过解析 YouTube 网页版来获取所需信息。因此，可在没有安装 Google 服务的设备上使用 WoxTube。此外，使用 WoxTube 并不需要 YouTube 账号，WoxTube 是自由开源软件（FLOSS）。

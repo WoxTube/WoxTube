@@ -1,0 +1,2 @@
+- Memperbaiki melanjutkan pemutaran
+- Perbaikan untuk memastikan bahwa layanan yang menentukan apakah WoxTube harus memeriksa pemeriksaan versi baru tidak dimulai di latar belakang

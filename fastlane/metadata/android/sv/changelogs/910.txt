@@ -1,0 +1,1 @@
+Fixade databasmigrering som hindrade WoxTube från att starta i vissa sällsynta fall.

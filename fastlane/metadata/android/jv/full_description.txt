@@ -1,0 +1,1 @@
+WoxTube ora migunakake pustaka kerangka kerja Google, utawa API Youtube. WoxTube namung migunakake informasi situs kanggo njupuk informasi kang dibutuhake. Mula iku, WoxTube isa digunakke ing piranti tanpa Layanan Google. Sampeyan uga ora mbutuhake akun Youtube kanggo migunakake WoxTube, lan aplikasi iki FLOSS.

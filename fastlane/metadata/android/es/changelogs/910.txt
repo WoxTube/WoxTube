@@ -1,0 +1,1 @@
+Se ha corregido la migración de la base de datos que impedía que WoxTube se iniciara en algunos casos raros.
