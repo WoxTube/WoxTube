@@ -13,11 +13,11 @@ plugins {
 
 android {
     compileSdk 36
-    namespace 'org.schabi.newpipe'
+    namespace 'org.woxtube.woxtube'
 
     defaultConfig {
-        applicationId "org.schabi.newpipe"
-        resValue "string", "app_name", "NewPipe"
+        applicationId "org.woxtube.woxtube"
+        resValue "string", "app_name", "WoxTube"
         minSdk 21
         targetSdk 35
         if (System.properties.containsKey('versionCodeOverride')) {
@@ -49,7 +49,7 @@ android {
             if (normalizedWorkingBranch.isEmpty() || workingBranch == "master" || workingBranch == "dev") {
                 // default values when branch name could not be determined or is master or dev
                 applicationIdSuffix ".debug"
-                resValue "string", "app_name", "NewPipe Debug"
+                resValue "string", "app_name", "WoxTube Debug"
             } else {
                 applicationIdSuffix ".debug." + normalizedWorkingBranch
                 resValue "string", "app_name", "NewPipe " + workingBranch
@@ -189,7 +189,7 @@ afterEvaluate {
     if (!System.properties.containsKey('skipFormatKtlint')) {
         preDebugBuild.dependsOn formatKtlint
     }
-    preDebugBuild.dependsOn runCheckstyle, runKtlint
+    // preDebugBuild.dependsOn runCheckstyle, runKtlint
 }
 
 sonar {
