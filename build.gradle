@@ -23,17 +23,7 @@ plugins {
     id 'org.jetbrains.kotlin.android' version '1.9.25' apply false
 }
 
-allprojects {
-    repositories {
-        google()
-        mavenCentral()
-        maven { url "https://jitpack.io" }
-        maven { url "https://repo.clojars.org" }
-        // Add these for better compatibility
-        maven { url "https://maven.google.com" }
-        maven { url "https://plugins.gradle.org/m2/" }
-    }
-}
+// Repositories are now managed in settings.gradle
 
 // Add this for better build performance
 subprojects {
