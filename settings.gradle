@@ -1,2 +1,27 @@
-rootProject.name = "WoxTube"
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven { url "https://jitpack.io" }
+        maven { url "https://repo.clojars.org" }
+    }
+}
+
+rootProject.name = "Woxtube"
 include ':app'
+
+// Optional: You can use local versions by uncommenting a few lines below
+// and setting the path to the local checkouts of the projects
+// include ':extractor'
+// project(':extractor').projectDir = new File(settingsDir, '../NewPipeExtractor')
+// include ':nanojson'
+// project(':nanojson').projectDir = new File(settingsDir, '../nanojson')
